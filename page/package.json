@@ -1,0 +1,15 @@
+{
+	"name": "page",
+	"scripts": {
+		"watch": "parcel watch index.html --no-hmr --no-cache --dist-dir .built",
+		"build": "parcel build index.html --no-source-maps --no-scope-hoist --no-cache --dist-dir .built"
+	},
+	"dependencies": {
+		"@acryps/page": "^1.2.0",
+		"@acryps/page-default-directives": "^1.1.4",
+		"@acryps/parcel-transformer-page": "^1.0.1",
+		"@packtrack/layout": "^1.0.1",
+		"@packtrack/train": "^1.0.0",
+		"@types/node": "^20.11.9"
+	}
+}

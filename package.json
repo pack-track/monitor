@@ -1,0 +1,21 @@
+{
+	"name": "@atcs/monitor",
+	"scripts": {
+		"build": "tsc && cd page && npm run build && cd ..",
+		"start": "npm run build && environment node .built/index.js"
+	},
+	"environment": {
+		"layout": {
+			"fileLocation": "Layout File Location"
+		}
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.9",
+		"parcel": "^2.8.0",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"@packtrack/protocol": "^1.0.1",
+		"@acryps/environment": "^2.7.2"
+	}
+}
